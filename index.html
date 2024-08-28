@@ -6,72 +6,119 @@
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat&family=Patrick+Hand&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav class="navigation">
-            <div class="primary">
-                <h1>THE <span>PHOTO</span> GALLERY</h1>
-                <P>lets explore nature</P>
-            </div>
+    <nav class="navigation">
 
-            <div class="secondary">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Register/Login</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main class="main-container">
-        <div class="main-view">
-            <img src="images/img-1.png" alt="This is main-view image of nature">
+        <div class="primary">
+            <h1>THE <span>PHOTO</span> GALLERY</h1>
+            <P>Exploring the beauty of nature</P>
         </div>
 
-        <div class="minor-view">
-            <div class="first-column">
-                <img src="images/img-4.png" alt="">
-                <img src="images/img-3.png" alt="">
-                <img src="images/img-8.png" alt="">
-            </div>
-    
-            <div class="second-column">
-                <img src="images/img-9.png" alt="">
-                <img src="images/img-10.jpeg" alt="">
-                <img src="images/img-11.jpeg" alt="">
-            </div>
-    
-            <div class="third-column">
-                <img src="images/img-13.jpeg" alt="">
-                <img src="images/img-6.png" alt="">
-                <img src="images/img-5.png" alt="">
-            </div>
-    
-            <div class="forth-column">
-                <img src="images/img-2.png" alt="">
-                <img src="images/img-7.png" alt="">
-                <img src="images/img-12.jpeg" alt="">
-            </div>
-        </div>
-    </main>
-
-    <footer class="footer-links">
-        <div class="links">
+        <div class="secondary">
             <ul>
-                <li><a href="#">Privacy and Cookies</a></li>
-                <li><a href="#">Content Policy</a></li>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Feedback</a></li>
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link"  href="#about">About</a></li>
+                <li><a class="nav-link"  href="#contact">Contact</a></li>
             </ul>
         </div>
 
-        <div class="feedback-button">
-            <a href="#">Feedback</a>
+    </nav>
+
+    <section class="main grid">
+        <div class="main-images">
+            <img class="front-view" src="Assets/images/img-1.png" alt="forest-with background mountains">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-2.png" alt="forest-with bstream of water">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-3.png" alt="forest-rocks">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-4.png" alt="country view land side">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-5.png" alt="mountain -with moon shadows">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-6.png" alt="forest- water">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-7.png" alt="river">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-13.jpeg" alt="ocean- waves">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-9.png" alt="a man walking on tall grasses">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-10.jpeg" alt="beautigul-flowers"">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-11.jpeg" alt="child playing with kite and others on the background">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-12.jpeg" alt="backet full of flowers- fruits besides it">
+        </div>
+
+        <div class="main-images">
+            <img src="Assets/images/img-8.png" alt="beautifull- bird">
+        </div>
+
+    </section>
+
+    <section id="about">
+
+        <h2>WHAT DO WE DEAL WITH</h2>
+        <P>
+            We deal with showcasing various natural photo gallery so as to inspire more to the world about the mother nature we are blessed with,
+            and hence to incourage more protection of mother bnature and conservation of it`s all aboundant and rich wonders it contains.
+        </P>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>CONTACT US.</h2>
+
+        <form>
+            <input type="text" placeholder="YOUR NAME.">
+            <input type="text" placeholder="EMAIL.">
+            <textarea class="text-area" placeholder="Kindly tell us your Thoughts."></textarea>
+            <button class="button">SEND</button>
+        </form>
+
+    </section>
+
+    <footer class="footer-link grid">
+        <div class="information">
+            <p>Copyright@2024</p>
+            <p>Published by: JUSTINE NGULWA</p>
+            <a href="#contact">Contact us</a>
+        </div>
+
+        <div class="links">
+            <a href="#">policy</a>
+            <a href="#">security $ insurrance</a>
+            <a href="#">Tourism sector</a>
         </div>
     </footer>
+
 </body>
 </html>
